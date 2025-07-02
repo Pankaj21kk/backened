@@ -2,6 +2,7 @@
   "name": "backened",
   "version": "1.0.0",
   "description": "a backened at chai aur code channel",
+  "types": "module",
   "keywords": [
     "javascript"
   ],
@@ -10,6 +11,9 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": " nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
